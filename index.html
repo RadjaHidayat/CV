@@ -2,113 +2,131 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM6g0g5g5g5g5g5g5g5g5g5g5g5g5g5g5g5" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Sattari Radjasyah Hidayat</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-    <nav class="sidebar">
-        <div class="container-fluid text-center">
-            <img src="assets/img/Sattari.jpg" alt="Profile Picture" class="profile-pic" />
-            <a class="navbar-brand" href="index.html">Sattari Radjasyah Hidayat</a>
-            <div class="icon-container">
-                <a href="https://wa.me/+6289530639546" target="_blank" class="social-icon">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-                <a href="https://www.tiktok.com/@valdeshin" target="_blank" class="social-icon">
-                    <i class="fab fa-tiktok"></i>
-                </a>
-                <a href="https://x.com/4valon555" target="_blank" class="social-icon">
-                    <i class="fab fa-x"></i>
-                </a>
-                <a href="https://www.facebook.com/radja.hidayat.50" target="_blank" class="social-icon">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </div>
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#resume">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
+<button class="btn btn-dark d-md-none toggle-sidebar" id="toggleSidebar">
+    <i class="fas fa-bars"></i>
+</button>
+
+    <!-- Sidebar -->
+ <nav class="sidebar" id="sidebar">
+    <div class="container-fluid text-center">
+        <img src="assets/img/Sattari.jpg" alt="Profile Picture" class="profile-pic" />
+        <a class="navbar-brand" href="index.html">Sattari Radjasyah Hidayat</a>
+        <div class="icon-container">
+            <!-- Social Icons -->
+        </div>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Content -->
     <div class="content" id="home">
         <h1>Welcome to My CV</h1>
         <p id="typing-effect"></p>
     </div>
 
     <div class="content-2" id="about">
-    <div class="about-me">
-        <h2>About Me</h2>
-    </div>
-        <p>
-            Saya adalah pribadi yang mandiri, analitis, dan memiliki visi hidup yang jelas. Dalam keseharian, saya cenderung perfeksionis dan sangat memperhatikan perencanaan. Saya menyukai ketertiban, efisiensi, serta selalu berusaha untuk menyelesaikan sesuatu dengan cara yang paling logis dan strategis. Meski terkesan tertutup, saya memiliki dunia pemikiran yang kaya dan mendalam. Saya menyenangi waktu sendiri untuk merefleksi dan mengembangkan ide-ide besar dalam hidup saya. Keputusan yang saya ambil tidak pernah sembarangan, melainkan berdasarkan analisis matang dan pertimbangan jangka panjang, baik untuk kehidupan akademik, karier, maupun relasi pribadi.
-        </p>
-   
+        <div class="about-me">
+            <h2>About Me</h2>
+        </div>
+        <p>Saya adalah pribadi yang mandiri, analitis, dan memiliki visi hidup yang jelas. Dalam keseharian, saya
+            cenderung perfeksionis dan sangat memperhatikan perencanaan. Saya menyukai ketertiban, efisiensi, serta
+            selalu berusaha untuk menyelesaikan sesuatu dengan cara yang paling logis dan strategis. Meski terkesan
+            tertutup, saya memiliki dunia pemikiran yang kaya dan mendalam. Saya menyenangi waktu sendiri untuk
+            merefleksi dan mengembangkan ide-ide besar dalam hidup saya. Keputusan yang saya ambil tidak pernah
+            sembarangan, melainkan berdasarkan analisis matang dan pertimbangan jangka panjang, baik untuk kehidupan
+            akademik, karier, maupun relasi pribadi.</p>
+
         <div class="info-section">
-        <div class="info">
-            <h2>Web Developer</h2>
-            <ul>
-                <li><strong>Tempat Tanggal Lahir:</strong> Medan, 10 Oktober 2006</li>
-                <li><strong>Telepon:</strong> +62895 3063 9546/li>
-                <li><strong>Kota Tinggal:</strong> Jakarta Timur</li>
-                <li><strong>Umur:</strong> 18 Tahun</li>
-                <li><strong>Email:</strong> radjahidayat4@gmail.com</li>
-            </ul>
+            <div class="info">
+                <h2>Web Developer & Mahasiswa</h2>
+                <ul>
+                    <li><strong>Tempat Tanggal Lahir:</strong> Medan, 10 Oktober 2006</li>
+                    <li><strong>Telepon:</strong> +62895 3063 9546</li>
+                    <li><strong>Kota Tinggal:</strong> Jakarta Timur</li>
+                    <li><strong>Umur:</strong> 18 Tahun</li>
+                    <li><strong>Email:</strong> radjahidayat4@gmail.com</li>
+                </ul>
+            </div>
+            <div class="profile-picture">
+                <img src="assets/img/Photo.jpg" alt="Profile Picture" />
+            </div>
         </div>
-        <div class="profile-picture">
-            <img src="assets/img/Photo.jpg" alt="Profile Picture">
-        </div>
-        </div>
-        <p>
-            Namun di balik karakter yang rasional dan tegas, saya juga memiliki kepekaan emosional yang cukup tinggi. Saya menghargai nilai-nilai kejujuran, konsistensi, dan loyalitas, terutama dalam hubungan yang bermakna. Saya bisa sangat marah dan kecewa jika kepercayaan saya dilanggar atau janji yang telah disepakati dilanggar, karena saya merasa itu menyentuh nilai-nilai inti dalam diri saya. Untuk mengatasi emosi, saya biasanya memilih menjauh sejenak, berpikir tenang, atau mencurahkan isi hati pada orang yang saya percaya. Saya juga menyadari bahwa meskipun saya lebih nyaman bekerja sendiri, saya tetap membutuhkan keterampilan membangun hubungan sosial untuk mencapai tujuan-tujuan besar saya di masa depan. Oleh karena itu, saya terus berusaha mengembangkan kecerdasan emosional saya agar lebih siap menghadapi tantangan dalam dunia yang penuh interaksi.
-        </p>
+
+        <p> Namun di balik karakter yang rasional dan tegas, saya juga memiliki kepekaan emosional yang cukup tinggi.
+            Saya menghargai nilai-nilai kejujuran, konsistensi, dan loyalitas, terutama dalam hubungan yang bermakna.
+            Saya bisa sangat marah dan kecewa jika kepercayaan saya dilanggar atau janji yang telah disepakati
+            dilanggar, karena saya merasa itu menyentuh nilai-nilai inti dalam diri saya. Untuk mengatasi emosi, saya
+            biasanya memilih menjauh sejenak, berpikir tenang, atau mencurahkan isi hati pada orang yang saya percaya.
+            Saya juga menyadari bahwa meskipun saya lebih nyaman bekerja sendiri, saya tetap membutuhkan keterampilan
+            membangun hubungan sosial untuk mencapai tujuan-tujuan besar saya di masa depan. Oleh karena itu, saya terus
+            berusaha mengembangkan kecerdasan emosional saya agar lebih siap menghadapi tantangan dalam dunia yang penuh
+            interaksi.</p>
     </div>
 
-    <div class="content-3" id="resume">
-        <h2>Resume</h2>
-        <p>Ini adalah bagian Resume saya</p>
-    </div>
+<div class="content-3" id="resume">
+    <h2>Resume</h2>
+    <h3>Riwayat Pendidikan</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Institusi</th>
+                <th>Gelaran</th>
+                <th>Tahun Masuk</th>
+                <th>Tahun Lulus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Universitas Siber Asia</td>
+                <td>Sarjana Informatika</td>
+                <td>2022</td>
+                <td>2026</td>
+            </tr>
+            <tr>
+                <td>SMA Negeri 1 Medan</td>
+                <td>IPA</td>
+                <td>2020</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>SMP Negeri 3 Medan</td>
+                <td>-</td>
+                <td>2017</td>
+                <td>2020</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
     <div class="content-4" id="contact">
         <h2>Contact</h2>
         <p>Ini adalah bagian Kontak dan alamat saya</p>
     </div>
 
+    <!-- Typing Effect Script -->
     <script>
-        const phrases = [
-            "Sattari Radjasyah Hidayat",
-            "Mahasiswa Informatika",
-            "Universitas Siber Asia"
-        ];
-
-        let currentPhraseIndex = 0;
-        let currentCharIndex = 0;
-        const typingSpeed = 100; // Kecepatan mengetik dalam milidetik
-        const deletingSpeed = 50; // Kecepatan menghapus dalam milidetik
-        const pauseDuration = 2000; // Durasi jeda sebelum mengganti kata
+        const phrases = ["Sattari Radjasyah Hidayat", "Mahasiswa Informatika", "Universitas Siber Asia"];
+        let currentPhraseIndex = 0, currentCharIndex = 0;
+        const typingSpeed = 100, deletingSpeed = 50, pauseDuration = 2000;
 
         function type() {
             const currentPhrase = phrases[currentPhraseIndex];
@@ -119,7 +137,7 @@
                 currentCharIndex++;
                 setTimeout(type, typingSpeed);
             } else {
-                setTimeout(deleteText, pauseDuration); // Panggil fungsi hapus setelah jeda
+                setTimeout(deleteText, pauseDuration);
             }
         }
 
@@ -131,15 +149,57 @@
                 currentCharIndex--;
                 setTimeout(deleteText, deletingSpeed);
             } else {
-                currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length; // Ganti ke kata berikutnya
-                currentCharIndex = 0; // Reset indeks karakter
-                setTimeout(type, typingSpeed); // Mulai mengetik kata berikutnya
+                currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+                currentCharIndex = 0;
+                setTimeout(type, typingSpeed);
             }
         }
 
-        // Mulai efek mengetik saat halaman dimuat
         window.onload = type;
+
+        const sidebar = document.getElementById('sidebar');
+    const toggleButton = document.getElementById('toggleSidebar');
+    const navLinks = document.querySelectorAll('.sidebar .nav-link');
+
+    // Tampilkan sidebar saat tombol ditekan
+    toggleButton.addEventListener('click', function () {
+        sidebar.classList.add('show');
+        toggleButton.style.display = 'none'; // Sembunyikan tombol toggle
+    });
+
+    // Navigasi dengan scroll smooth + sembunyikan sidebar
+    navLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            sidebar.classList.remove('show');
+
+            setTimeout(() => {
+                toggleButton.style.display = 'block';
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }, 400); // Tunggu animasi selesai
+        });
+    });
+
+    // Klik di luar sidebar untuk menutup (khusus mobile)
+    document.addEventListener('click', function (e) {
+        if (window.innerWidth <= 768) {
+            if (!sidebar.contains(e.target) && !toggleButton.contains(e.target)) {
+                sidebar.classList.remove('show');
+                toggleButton.style.display = 'block';
+            }
+        }
+    });
     </script>
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
